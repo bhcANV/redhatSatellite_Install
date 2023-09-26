@@ -1,5 +1,11 @@
 # RedHat Satellite Installation & Setup
 
+## Table of Contents 
+- [Important Notes](#notes)
+- [Installation](#guide)
+- [Connecting to Satellite](#connect)
+
+<a id=notes></a>
 ## Important Notes: 
 - Root access needed for pre-installation setup. Enter root via `sudo -s` after each login.
 - Login to Azure VM with the following requirements:
@@ -15,7 +21,7 @@
 - [RedHat Satellite Technical Overview Course (RH053)](https://www.youtube.com/playlist?list=PLbMP1JcGBmSEnmwbVGvtX-URDxmgOYOGd)
 
 <a id=guide></a>
-## Installation Process 
+## Installation 
 
 1. Mounting Resources
     1. After logging into the VM use `df -h` to check disk partitions and allocations
@@ -130,6 +136,7 @@
     5. Store generated credentials somewhere for later
 
 
+<a id=connect></a>
 ## Connecting to Satellite
 
 1. Secondary VM
@@ -151,5 +158,4 @@ hhtps://10.x.x.x
     1. Sign in using the generated credentials from the install.
 6. You are now logged in to your RedHat Satellite Server and can manage your organization!
 7. [Get Started with Manifests](https://www.redhat.com/en/blog/how-create-and-use-red-hat-satellite-manifest)
-# Satellite Install
-# redhatSatellite_Install
+
